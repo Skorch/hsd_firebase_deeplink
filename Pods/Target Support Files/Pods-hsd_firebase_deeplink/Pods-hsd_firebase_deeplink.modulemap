@@ -1,0 +1,6 @@
+framework module Pods_hsd_firebase_deeplink {
+  umbrella header "Pods-hsd_firebase_deeplink-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C83E44A9DD42DFCF75F30D719B87B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1DB03327F111B1C4CAEFE8F8E7E808B5 /* Pods-hsd_firebase_deeplink-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C362DDB44049C97085087265882ACC36 /* Pods-hsd_firebase_deeplink-dummy.m */; };
+		F6999DB9A2C39D1CD50CB9610DD5E835 /* Pods-hsd_firebase_deeplink-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE985A711B9BA3653B1B13620878BB97 /* Pods-hsd_firebase_deeplink-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DD64133BAAFBB8CCFA413B469C12F86 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1301E79E64ECF8C271B2637F7B15FA1F /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		1BF55E07DA670409A2D804795ED751A6 /* Pods-hsd_firebase_deeplink.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-hsd_firebase_deeplink.modulemap"; sourceTree = "<group>"; };
+		1F887EABDA509CF13D7763D9E77A60B4 /* Pods-hsd_firebase_deeplink-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hsd_firebase_deeplink-acknowledgements.plist"; sourceTree = "<group>"; };
+		31F06B0BA5822DFA3AD1096528B5A3C0 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		38BF6CE859B27ED804BBC1F468CD0156 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		61F27BFBDD81929CF3A3DABFDA88B5E2 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		79B87ACECCF5A7B703CA4472A5ADDEF6 /* Pods-hsd_firebase_deeplink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hsd_firebase_deeplink.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		941910646205677BF2290781A2BA009C /* Pods-hsd_firebase_deeplink-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hsd_firebase_deeplink-acknowledgements.markdown"; sourceTree = "<group>"; };
+		96DD1B83B04BD80EE4210679015B6A45 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		AD79CA1ABA68099BD2B9F612BFC5EDA2 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		B6C3A1CF3737CDF338C077F2D3E23266 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		C362DDB44049C97085087265882ACC36 /* Pods-hsd_firebase_deeplink-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hsd_firebase_deeplink-dummy.m"; sourceTree = "<group>"; };
+		C5C90EF722C4623F37F2B1E881DF90E5 /* Pods-hsd_firebase_deeplink-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hsd_firebase_deeplink-resources.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F28A173733B937E9BC26A3AD29B71123 /* Pods_hsd_firebase_deeplink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hsd_firebase_deeplink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57B18CCC8D7DD36DFD392D1EC9B733F /* Pods-hsd_firebase_deeplink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hsd_firebase_deeplink.debug.xcconfig"; sourceTree = "<group>"; };
+		FA504CA9DF1DEA4F740E1D62CA2F14EC /* Pods-hsd_firebase_deeplink-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hsd_firebase_deeplink-frameworks.sh"; sourceTree = "<group>"; };
+		FBAEC703F002F1597ECC89C60C765F14 /* FirebaseDynamicLinks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDynamicLinks.framework; path = Frameworks/frameworks/FirebaseDynamicLinks.framework; sourceTree = "<group>"; };
+		FE985A711B9BA3653B1B13620878BB97 /* Pods-hsd_firebase_deeplink-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hsd_firebase_deeplink-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25A75B18B77C7D5B5FCC59960E64C84C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C83E44A9DD42DFCF75F30D719B87B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FE52DDB6739847A8B0395078825763E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBAEC703F002F1597ECC89C60C765F14 /* FirebaseDynamicLinks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		123DC0BE923D090B2CB10919B3D09109 /* FirebaseDynamicLinks */ = {
+			isa = PBXGroup;
+			children = (
+				0FE52DDB6739847A8B0395078825763E /* Frameworks */,
+			);
+			path = FirebaseDynamicLinks;
+			sourceTree = "<group>";
+		};
+		2CBDF38A54C3A860E94A8466719D6953 /* Pods-hsd_firebase_deeplink */ = {
+			isa = PBXGroup;
+			children = (
+				0DD64133BAAFBB8CCFA413B469C12F86 /* Info.plist */,
+				1BF55E07DA670409A2D804795ED751A6 /* Pods-hsd_firebase_deeplink.modulemap */,
+				941910646205677BF2290781A2BA009C /* Pods-hsd_firebase_deeplink-acknowledgements.markdown */,
+				1F887EABDA509CF13D7763D9E77A60B4 /* Pods-hsd_firebase_deeplink-acknowledgements.plist */,
+				C362DDB44049C97085087265882ACC36 /* Pods-hsd_firebase_deeplink-dummy.m */,
+				FA504CA9DF1DEA4F740E1D62CA2F14EC /* Pods-hsd_firebase_deeplink-frameworks.sh */,
+				C5C90EF722C4623F37F2B1E881DF90E5 /* Pods-hsd_firebase_deeplink-resources.sh */,
+				FE985A711B9BA3653B1B13620878BB97 /* Pods-hsd_firebase_deeplink-umbrella.h */,
+				F57B18CCC8D7DD36DFD392D1EC9B733F /* Pods-hsd_firebase_deeplink.debug.xcconfig */,
+				79B87ACECCF5A7B703CA4472A5ADDEF6 /* Pods-hsd_firebase_deeplink.release.xcconfig */,
+			);
+			name = "Pods-hsd_firebase_deeplink";
+			path = "Target Support Files/Pods-hsd_firebase_deeplink";
+			sourceTree = "<group>";
+		};
+		32356CE68509F9C3AEA38A9218638892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD79CA1ABA68099BD2B9F612BFC5EDA2 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B06C4D3F86842E5E755054341E6D4E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31F06B0BA5822DFA3AD1096528B5A3C0 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3FE944B2C57CCC204E89620F1A3F066F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1301E79E64ECF8C271B2637F7B15FA1F /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5295B1CAB917E74A440979A7BAC5A4B9 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				96DD1B83B04BD80EE4210679015B6A45 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		5DB87838E0355C5CD342678F32FEBAF9 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				5ED454C7EFB3A5280A8B18D615EB20D3 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		5ED454C7EFB3A5280A8B18D615EB20D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61F27BFBDD81929CF3A3DABFDA88B5E2 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6103FA3A073BB7640A1B5531733A9C5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6C3A1CF3737CDF338C077F2D3E23266 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6446D493B0FE7959D5ABEBEE418D7682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F28A173733B937E9BC26A3AD29B71123 /* Pods_hsd_firebase_deeplink.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65C11612FFFB9F3762B2BD309EB4E675 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				3B06C4D3F86842E5E755054341E6D4E9 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		6BF75011513E40449750831F0D0C0433 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79155BA866D85C84E97FD19A3B9BC2FF /* Firebase */,
+				5DB87838E0355C5CD342678F32FEBAF9 /* FirebaseAnalytics */,
+				123DC0BE923D090B2CB10919B3D09109 /* FirebaseDynamicLinks */,
+				6DDD0326D727ED32A530CB6FB7A3AD50 /* FirebaseInstanceID */,
+				65C11612FFFB9F3762B2BD309EB4E675 /* GoogleInterchangeUtilities */,
+				BC9FFB191C43FD10EB745E7F265C7A21 /* GoogleSymbolUtilities */,
+				A73F86B3F5D5D56B8D9958A3EB2E8D04 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6DDD0326D727ED32A530CB6FB7A3AD50 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				38BF6CE859B27ED804BBC1F468CD0156 /* FIRInstanceID.h */,
+				32356CE68509F9C3AEA38A9218638892 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		79155BA866D85C84E97FD19A3B9BC2FF /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				5295B1CAB917E74A440979A7BAC5A4B9 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6BF75011513E40449750831F0D0C0433 /* Pods */,
+				6446D493B0FE7959D5ABEBEE418D7682 /* Products */,
+				F52226FC5F32FF211694DECDE0A52388 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A73F86B3F5D5D56B8D9958A3EB2E8D04 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				3FE944B2C57CCC204E89620F1A3F066F /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC9FFB191C43FD10EB745E7F265C7A21 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				6103FA3A073BB7640A1B5531733A9C5D /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		F52226FC5F32FF211694DECDE0A52388 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CBDF38A54C3A860E94A8466719D6953 /* Pods-hsd_firebase_deeplink */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4BA142949AEEBCC8E369FBDE9DE9EC0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6999DB9A2C39D1CD50CB9610DD5E835 /* Pods-hsd_firebase_deeplink-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A11A357288E7FD81D2A6DA0F843EFEB /* Pods-hsd_firebase_deeplink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F75E09D920C5259B43AA118C50F6FB /* Build configuration list for PBXNativeTarget "Pods-hsd_firebase_deeplink" */;
+			buildPhases = (
+				3045B31B577ACB234850941D63016871 /* Sources */,
+				25A75B18B77C7D5B5FCC59960E64C84C /* Frameworks */,
+				4BA142949AEEBCC8E369FBDE9DE9EC0F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-hsd_firebase_deeplink";
+			productName = "Pods-hsd_firebase_deeplink";
+			productReference = F28A173733B937E9BC26A3AD29B71123 /* Pods_hsd_firebase_deeplink.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6446D493B0FE7959D5ABEBEE418D7682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A11A357288E7FD81D2A6DA0F843EFEB /* Pods-hsd_firebase_deeplink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3045B31B577ACB234850941D63016871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB03327F111B1C4CAEFE8F8E7E808B5 /* Pods-hsd_firebase_deeplink-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1828C853C11D8E6295E8B7A9D7E09066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57B18CCC8D7DD36DFD392D1EC9B733F /* Pods-hsd_firebase_deeplink.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-hsd_firebase_deeplink/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hsd_firebase_deeplink/Pods-hsd_firebase_deeplink.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_hsd_firebase_deeplink;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0D1974F796A597165934168F28FECC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B87ACECCF5A7B703CA4472A5ADDEF6 /* Pods-hsd_firebase_deeplink.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-hsd_firebase_deeplink/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hsd_firebase_deeplink/Pods-hsd_firebase_deeplink.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_hsd_firebase_deeplink;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F75E09D920C5259B43AA118C50F6FB /* Build configuration list for PBXNativeTarget "Pods-hsd_firebase_deeplink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1828C853C11D8E6295E8B7A9D7E09066 /* Debug */,
+				C0D1974F796A597165934168F28FECC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
